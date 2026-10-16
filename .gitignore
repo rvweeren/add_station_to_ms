@@ -1,0 +1,11 @@
+# Private helper scripts
+remote_singularity_python.sh
+remote_singularity.sh
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Measurement Sets and test output
+*.ms/
+*.log
