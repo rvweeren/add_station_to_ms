@@ -20,6 +20,15 @@ effect on uv-coverage, imaging or calibration.
 - For Dysco-compressed MSs: casacore with the Dysco storage manager.
 - Everything is available in the LOFAR/flocs containers.
 
+## Installation
+
+No installation is needed; clone the repository and run the script:
+
+```
+git clone https://github.com/rvweeren/add_station_to_ms.git
+python add_station_to_ms/add_station_to_ms.py --help
+```
+
 ## Example
 
 Add a station `DE614HBA` at 53.04° N, 8.60° E (Bremen), copied from
